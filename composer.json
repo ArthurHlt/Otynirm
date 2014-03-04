@@ -1,0 +1,35 @@
+{
+	"name" : "timoran/otynirm",
+	"description" : "A tiny ORM for small project",
+	"keywords" : [
+		"Orm",
+		"Tiny",
+        "otynirm",
+		"Timoran"
+	],
+	"homepage" : "https://github.com/Timoran/Otynirm",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Arthur Halet",
+			"email" : "arthurh.halet@gmail.com",
+			"homepage" : "http://arthurh.fr"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.0",
+		"arhframe/util" : "1.1.2",
+		"danielstjules/stringy" : "1.4.0"
+	},
+	"require-dev" : {
+	     "raveren/kint": "v0.9"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Timoran\\Otynirm" : "src/"
+		}
+	},
+	"support" : {
+		"email" : "arthurh.halet@gmail.com"
+	}
+}
