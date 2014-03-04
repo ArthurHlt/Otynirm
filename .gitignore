@@ -1,7 +1,0 @@
-vendor/*
-composer.lock
-composer.phar
-test.php
-model/*
-.idea/*
-.settings/*
